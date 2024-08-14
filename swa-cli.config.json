@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "sveltekit-swa-full-stack-app": {
+      "appLocation": ".",
+      "outputLocation": "./build/static",
+      "appBuildCommand": "npm run build",
+      "run": "npm run dev",
+      "appDevserverUrl": "http://localhost:5173",
+      "appName": "sveltekit-swa-full-stack-app",
+      "resourceGroup": "sveltekit-swa-full-stack-app-rg"
+    }
+  }
+}
